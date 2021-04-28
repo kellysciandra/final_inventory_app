@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qty": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "product": {
+      "model": "products",
+      "via": "orders"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
