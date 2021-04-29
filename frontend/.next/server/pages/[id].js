@@ -2787,7 +2787,7 @@ const Index = () => {
   (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(() => {
     axios__WEBPACK_IMPORTED_MODULE_5___default()({
       "method": "GET",
-      "url": "http://localhost:1337/products"
+      "url": "https://final-inventory-app.vercel.app/products"
     }).then(response => {
       setProducts(response.data);
     });
