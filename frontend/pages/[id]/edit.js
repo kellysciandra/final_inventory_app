@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import fetch from 'isomorphic-unfetch';
-import {EditContainer, ItemsHeader} from '../index.styles'
+import {EditContainer, ItemsHeader} from '../../styles/index.styles'
 import { Button, Form, Loader } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import axios from 'axios';

@@ -1,7 +1,17 @@
 {
+  "/[id]/edit": "pages/[id]/edit.js",
+  "/[id]/edit_order": "pages/[id]/edit_order.html",
+  "/[id]": "pages/[id].js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/food": "pages/food.html",
+  "/": "pages/index.html",
+  "/liquor": "pages/liquor.html",
+  "/new": "pages/new.html",
+  "/order": "pages/order.html",
+  "/paper": "pages/paper.html",
+  "/past": "pages/past.js",
   "/_error": "pages/_error.js",
-  "/order": "pages/order.js",
-  "/past": "pages/past.js"
+  "/404": "pages/404.html"
 }

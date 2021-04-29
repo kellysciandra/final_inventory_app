@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useCallback, useEffect, useState } from 'react';
-import {ItemsContainer, ItemsHeader, CardContainer} from './index.styles'
+import {ItemsContainer, ItemsHeader, CardContainer} from '../styles/index.styles'
 import moment from 'moment'
 import EditItem from './[id]/edit_order';
 import { Button, Card, Modal } from 'semantic-ui-react';

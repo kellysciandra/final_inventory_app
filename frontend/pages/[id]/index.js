@@ -2,7 +2,7 @@ import fetch from 'isomorphic-unfetch';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Card, Confirm, Button, Loader } from 'semantic-ui-react';
-import {CardContainer, ButtonContainer, ItemsContainer, ItemsHeader} from '../index.styles';
+import {CardContainer, ButtonContainer, ItemsContainer, ItemsHeader} from '../../styles/index.styles';
 import Link from 'next/link';
 import axios from 'axios';
 import Index from '..';

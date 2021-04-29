@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch';
 import { Button, Form, Loader } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import moment from 'moment'
-import { EditItemsContainer, ItemsHeader } from '../index.styles';
+import { EditItemsContainer, ItemsHeader } from '../../styles/index.styles';
 
 const EditOrder = ({ item, handleModal, updateOrder, name, productID }) => {
     const [form, setForm] = useState({ name: name, qty: 0, date: new Date(), product: productID });
