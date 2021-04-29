@@ -4,6 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
+        uri: env('DATABASE_URI'),
         host: env('DATABASE_HOST', 'cluster0.cto0r.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
