@@ -1,0 +1,7 @@
+{
+    "name": "my-mongodb-api",
+    "version": 2,
+    "env": {
+      "MONGODB_URI": "mongodb+srv://kellysciandra:Richardjoseph123@cluster0.cto0r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    }
+  }
